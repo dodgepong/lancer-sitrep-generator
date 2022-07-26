@@ -64,8 +64,11 @@ TEMPLATES = {
     },
 }
 
-def select_class_count():
+def select_class_count(is_double_budget=False):
     selection = random.randrange(10)
+    if is_double_budget:
+        # make double-budget encounters more likely to have more class variety
+        selection += 3
     if selection < 1:
         return 3
     if selection < 7:
@@ -99,7 +102,7 @@ def generate_sitrep(npc_data, sitrep, players):
     max_structure = 2 * players * sitrep_data['budget_multiplier']
     max_activations = 2 * players * sitrep_data['budget_multiplier']
 
-    class_count = select_class_count()
+    class_count = select_class_count(sitrep_data['budget_multiplier'] >= 2)
 
     has_ultra = False
     has_commander = False
