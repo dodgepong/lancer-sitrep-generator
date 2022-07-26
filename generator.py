@@ -7,27 +7,27 @@ import sys
 SITREP_REQUIREMENTS = {
     'recon': {
         'budget_multiplier': 1,
-        'instructions': 'Deploy all at the start, or hold some in reserves.'
+        'instructions': 'Deploy all forces at the beginning of the encounter, or hold some in reserves.'
     },
     'control': {
         'budget_multiplier': 1,
-        'instructions': 'Deploy all at the start, no reserves.'
+        'instructions': 'Deploy all forces at the beginning of the encounter. No reserves.'
     },
     'escort': {
         'budget_multiplier': 2,
-        'instructions': 'Deploy half at the start, hold the rest as reserves for subsequent rounds.'
+        'instructions': 'Deploy half of your forces at the beginning of the encounter, and hold the rest as reserves for later rounds.'
     },
     'extraction': {
         'budget_multiplier': 2,
-        'instructions': 'Deploy none at start, hold all in reserves.'
+        'instructions': 'Deploy no forces at the beginning of the encounter. All forces shoudl be deployed in later rounds as reserves.'
     },
     'gauntlet': {
         'budget_multiplier': 1,
-        'instructions': 'Deploy half at the start, hold the rest as reserves for subsequent rounds.'
+        'instructions': 'Deploy half of your forces at the beginning of the encounter, and hold the rest as reserves for later rounds.'
     },
     'holdout': {
         'budget_multiplier': 2,
-        'instructions': 'Deploy half at the start, hold the rest as reserves for subsequent rounds.'
+        'instructions': 'Deploy half of your forces at the beginning of the encounter, and hold the rest as reserves for later rounds.'
     }
 }
 
@@ -190,6 +190,7 @@ def generate_sitrep(npc_data, sitrep, players):
                     has_ultra = True
 
     print(f"Sitrep: {npc_roster['sitrep'].capitalize()} ({sitrep_data['budget_multiplier']}x budget)")
+    print(f"Instructions: {sitrep_data['instructions']}")
     print(f"Players: {players}")
     print("Roster:")
     for npc_name, npc_info in npc_roster['npcs'].items():
