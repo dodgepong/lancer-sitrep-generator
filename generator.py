@@ -99,8 +99,6 @@ def generate_sitrep(npc_data, sitrep, players):
     max_structure = 2 * players * sitrep_data['budget_multiplier']
     max_activations = 2 * players * sitrep_data['budget_multiplier']
 
-    max_striker_structure_activations = 2 * players * sitrep_data['budget_multiplier']
-
     class_count = select_class_count()
 
     has_ultra = False
