@@ -1,0 +1,368 @@
+[
+    {
+        "name": "Bomber",
+        "baseNpc": {"name": "Ace", "role": "Striker"},
+        "optionalSystems": ["Bombing Bay", "Missile Swarm"],
+        "preferredSitreps": ["holdout", "gauntlet", "recon"]
+    },
+    {
+        "name": "Harrier",
+        "baseNpc": {"name": "Ace", "role": "Striker"},
+        "optionalSystems": ["Strafe", "Rapid Response"],
+        "preferredSitreps": ["escort", "gauntlet", "extraction"]
+    },
+    {
+        "name": "Bunker",
+        "baseNpc": {"name": "Aegis", "role": "Defender"},
+        "optionalSystems": ["Adaptive Shielding", "Hardlight Cover System"],
+        "preferredSitreps": ["escort", "gauntlet", "recon"]
+    },
+    {
+        "name": "Firewall",
+        "baseNpc": {"name": "Aegis", "role": "Defender"},
+        "optionalSystems": ["Ring of Fire", "HA Blackwall System"],
+        "preferredSitreps": ["holdout", "gauntlet"]
+    },
+    {
+        "name": "Disruptor",
+        "baseNpc": {"name": "Archer", "role": "Controller"},
+        "optionalSystems": ["Blinding Shells", "Hail of Fire"],
+        "preferredSitreps": ["escort", "gauntlet", "extraction"]
+    },
+    {
+        "name": "Suppressor",
+        "baseNpc": {"name": "Archer", "role": "Controller"},
+        "optionalSystems": ["Impending Threat", "Covering Fire"],
+        "preferredSitreps": ["control", "holdout", "recon"]
+    },
+    {
+        "name": "Fakeout",
+        "baseNpc": {"name": "Assassin", "role": "Striker"},
+        "optionalSystems": ["\"Devil's Cough\" Shotgun", "Explosive Knives"],
+        "preferredSitreps": ["control", "gauntlet", "escort"]
+    },
+    {
+        "name": "Ninja",
+        "baseNpc": {"name": "Assassin", "role": "Striker"},
+        "optionalSystems": ["Spinning Kick", "Cloud Projector"],
+        "preferredSitreps": ["control", "gauntlet", "escort"]
+    },
+    {
+        "name": "Bandolier",
+        "baseNpc": {"name": "Assault", "role": "Striker"},
+        "optionalSystems": ["Underslung Grenade Launcher", "High Impact Rounds"],
+        "preferredSitreps": ["escort", "gauntlet", "holdout"]
+    },
+    {
+        "name": "Driller",
+        "baseNpc": {"name": "Assault", "role": "Striker"},
+        "optionalSystems": ["Micro-Missile Barrage", "Auto-Targeting"],
+        "preferredSitreps": ["escort", "control", "extraction"]
+    },
+    {
+        "name": "Bricklayer",
+        "baseNpc": {"name": "Barricade", "role": "Controller"},
+        "optionalSystems": ["Drag Down", "Extrudite"],
+        "preferredSitreps": ["escort", "gauntlet", "extraction"]
+    },
+    {
+        "name": "Bulwark",
+        "baseNpc": {"name": "Barricade", "role": "Controller"},
+        "optionalSystems": ["Seismic Repulsor", "Titan-Snare Drone"],
+        "preferredSitreps": ["control", "gauntlet", "recon"]
+    },
+    {
+        "name": "Bodyguard",
+        "baseNpc": {"name": "Bastion", "role": "Defender"},
+        "optionalSystems": ["\"Pause\" Engine", "Fearless Defender"],
+        "preferredSitreps": ["escort", "extraction", "holdout"]
+    },
+    {
+        "name": "Nemesis",
+        "baseNpc": {"name": "Bastion", "role": "Defender"},
+        "optionalSystems": ["Near-Threat Denial System", "Deathcounter"],
+        "preferredSitreps": ["escort", "extraction", "control"]
+    },
+    {
+        "name": "Scourge",
+        "baseNpc": {"name": "Berzerker", "role": "Striker"},
+        "optionalSystems": ["Retribution", "Superhot"],
+        "preferredSitreps": ["escort", "extraction", "control"]
+    },
+    {
+        "name": "Spiker",
+        "baseNpc": {"name": "Berzerker", "role": "Striker"},
+        "optionalSystems": ["Juggernaut", "Nail Gun"],
+        "preferredSitreps": ["escort", "extraction", "gauntlet"]
+    },
+    {
+        "name": "Desolator",
+        "baseNpc": {"name": "Bombard", "role": "Artillery"},
+        "optionalSystems": ["High-Impact Shells", "Bunker Buster"],
+        "preferredSitreps": ["recon", "holdout", "gauntlet", "control"]
+    },
+    {
+        "name": "Sunburst",
+        "baseNpc": {"name": "Bombard", "role": "Artillery"},
+        "optionalSystems": ["Flare Drone", "Cluster-Seeker Bombs"],
+        "preferredSitreps": ["control", "holdout"]
+    },
+    {
+        "name": "Bloodhound",
+        "baseNpc": {"name": "Breacher", "role": "Striker"},
+        "optionalSystems": ["Painmaker", "Follower Count"],
+        "preferredSitreps": ["control", "recon"]
+    },
+    {
+        "name": "Commando",
+        "baseNpc": {"name": "Breacher", "role": "Striker"},
+        "optionalSystems": ["Thermal Charge", "Flechette Shot"],
+        "preferredSitreps": ["holdout", "gauntlet"]
+    },
+    {
+        "name": "Abductor",
+        "baseNpc": {"name": "Cataphract", "role": "Striker"},
+        "optionalSystems": ["Electrified Lasso", "Charge"],
+        "preferredSitreps": ["control", "escort", "extraction"]
+    },
+    {
+        "name": "Jolter",
+        "baseNpc": {"name": "Cataphract", "role": "Striker"},
+        "optionalSystems": ["Lance Shot", "Capacitor Discharge"],
+        "preferredSitreps": ["control", "gauntlet", "holdout"]
+    },
+    {
+        "name": "Rattler",
+        "baseNpc": {"name": "Demolisher", "role": "Defender"},
+        "optionalSystems": ["Concussion Missiles", "Seismic Destroyer"],
+        "preferredSitreps": ["escort", "gauntlet", "recon"]
+    },
+    {
+        "name": "Sledge",
+        "baseNpc": {"name": "Demolisher", "role": "Defender"},
+        "optionalSystems": ["Kinetic Compensation", "Sap"],
+        "preferredSitreps": ["control", "gauntlet", "recon"]
+    },
+    {
+        "name": "Artillerist",
+        "baseNpc": {"name": "Engineer", "role": "Striker"},
+        "optionalSystems": ["Power Deployer", "Arsenal"],
+        "preferredSitreps": ["escort", "gauntlet"]
+    },
+    {
+        "name": "Drover",
+        "baseNpc": {"name": "Engineer", "role": "Striker"},
+        "optionalSystems": ["Shepherd Field", "Mobile Turrets"],
+        "preferredSitreps": ["control", "extraction", "holdout"]
+    },
+    {
+        "name": "Pankrator",
+        "baseNpc": {"name": "Goliath", "role": "Defender"},
+        "optionalSystems": ["Pin", "Crushing Embrace"],
+        "preferredSitreps": ["escort", "gauntlet", "recon"]
+    },
+    {
+        "name": "Mountain",
+        "baseNpc": {"name": "Goliath", "role": "Defender"},
+        "optionalSystems": ["Powerful Knuckle", "Watchful Guardian"],
+        "preferredSitreps": ["control", "gauntlet", "holdout"]
+    },
+    {
+        "name": "Horde",
+        "baseNpc": {"name": "Hive", "role": "Controller"},
+        "optionalSystems": ["Motile Swarm", "Driving Swarm"],
+        "preferredSitreps": ["control", "recon", "holdout"]
+    },
+    {
+        "name": "Locus",
+        "baseNpc": {"name": "Hive", "role": "Controller"},
+        "optionalSystems": ["Electro-Nanite Cloud", "Seeker Cloud"],
+        "preferredSitreps": ["control", "recon", "gauntlet"]
+    },
+    {
+        "name": "Impaler",
+        "baseNpc": {"name": "Hornet", "role": "Controller"},
+        "optionalSystems": ["HEX Missiles", "Lock/Hold Javelins"],
+        "preferredSitreps": ["escort", "recon", "extraction"]
+    },
+    {
+        "name": "Mosquito",
+        "baseNpc": {"name": "Hornet", "role": "Controller"},
+        "optionalSystems": ["Adapt/Evade/Disengage", "Umbral Interdiction"],
+        "preferredSitreps": ["escort", "extraction"]
+    },
+    {
+        "name": "Blinker",
+        "baseNpc": {"name": "Mirage", "role": "Support"},
+        "optionalSystems": ["Metafold Shove", "Multiplicity"],
+        "preferredSitreps": ["escort", "extraction", "control", "holdout"]
+    },
+    {
+        "name": "Phantasm",
+        "baseNpc": {"name": "Mirage", "role": "Support"},
+        "optionalSystems": ["Illusory Subroutines", "Warp Targeting"],
+        "preferredSitreps": ["escort", "extraction", "recon", "holdout"]
+    },
+    {
+        "name": "Agent",
+        "baseNpc": {"name": "Operator", "role": "Artillery"},
+        "optionalSystems": ["Fade Generator", "Fortress"],
+        "preferredSitreps": ["escort", "extraction", "recon"]
+    },
+    {
+        "name": "Daredevil",
+        "baseNpc": {"name": "Operator", "role": "Artillery"},
+        "optionalSystems": ["Telefrag", "Fortress"],
+        "preferredSitreps": ["control", "gauntlet", "holdout"]
+    },
+    {
+        "name": "Abjurer",
+        "baseNpc": {"name": "Priest", "role": "Support"},
+        "optionalSystems": ["Empowered Shield", "Sanctuary"],
+        "preferredSitreps": ["escort", "extraction", "holdout"]
+    },
+    {
+        "name": "Anointer",
+        "baseNpc": {"name": "Priest", "role": "Support"},
+        "optionalSystems": ["Greater Investiture", "Fractal Assault"],
+        "preferredSitreps": ["control", "gauntlet"]
+    },
+    {
+        "name": "Bellows",
+        "baseNpc": {"name": "Pyro", "role": "Defender"},
+        "optionalSystems": ["Siege Armor", "Explosive Jet"],
+        "preferredSitreps": ["escort", "gauntlet", "extraction"]
+    },
+    {
+        "name": "Radiator",
+        "baseNpc": {"name": "Pyro", "role": "Defender"},
+        "optionalSystems": ["Unshielded Reactor", "Superhot"],
+        "preferredSitreps": ["control", "gauntlet", "recon"]
+    },
+    {
+        "name": "Forecast",
+        "baseNpc": {"name": "Rainmaker", "role": "Artillery"},
+        "optionalSystems": ["Endless Rain", "Atlas Missiles"],
+        "preferredSitreps": ["control", "holdout", "recon"]
+    },
+    {
+        "name": "Thunderhead",
+        "baseNpc": {"name": "Rainmaker", "role": "Artillery"},
+        "optionalSystems": ["Hades Missiles", "Hound Missiles"],
+        "preferredSitreps": ["gauntlet", "holdout"]
+    },
+    {
+        "name": "Jetstream",
+        "baseNpc": {"name": "Ronin", "role": "Striker"},
+        "optionalSystems": ["Chaff Launchers", "Instinct Mode"],
+        "preferredSitreps": ["gauntlet", "escort", "extraction"]
+    },
+    {
+        "name": "Ripper",
+        "baseNpc": {"name": "Ronin", "role": "Striker"},
+        "optionalSystems": ["Charged Slash", "Echo Edge"],
+        "preferredSitreps": ["gauntlet", "holdout"]
+    },
+    {
+        "name": "Blowtorch",
+        "baseNpc": {"name": "Scourer", "role": "Striker"},
+        "optionalSystems": ["Supercharged", "Melt"],
+        "preferredSitreps": ["gauntlet", "escort", "control"]
+    },
+    {
+        "name": "Refractor",
+        "baseNpc": {"name": "Scourer", "role": "Striker"},
+        "optionalSystems": ["Pulse Laser", "Flash Lens"],
+        "preferredSitreps": ["recon", "holdout", "control"]
+    },
+    {
+        "name": "Banshee",
+        "baseNpc": {"name": "Scout", "role": "Support"},
+        "optionalSystems": ["System Flayer", "Dataveil"],
+        "preferredSitreps": ["recon", "holdout", "gauntlet"]
+    },
+    {
+        "name": "Oracle",
+        "baseNpc": {"name": "Scout", "role": "Support"},
+        "optionalSystems": ["Spotter", "Expose Weakness"],
+        "preferredSitreps": ["recon", "escort", "gauntlet"]
+    },
+    {
+        "name": "Brimstone",
+        "baseNpc": {"name": "Seeder", "role": "Controller"},
+        "optionalSystems": ["Speed Deployer", "Grav Spike"],
+        "preferredSitreps": ["control", "escort", "gauntlet"]
+    },
+    {
+        "name": "Weaver",
+        "baseNpc": {"name": "Seeder", "role": "Controller"},
+        "optionalSystems": ["Hopping Mines", "Tripwires"],
+        "preferredSitreps": ["control", "recon", "gauntlet"]
+    },
+    {
+        "name": "Hobbler",
+        "baseNpc": {"name": "Sentinel", "role": "Defender"},
+        "optionalSystems": ["Punisher Ammunition", "Rapid Response"],
+        "preferredSitreps": ["escort", "extraction", "holdout"]
+    },
+    {
+        "name": "Vigilante",
+        "baseNpc": {"name": "Sentinel", "role": "Defender"},
+        "optionalSystems": ["Impaler", "Bodyguard"],
+        "preferredSitreps": ["escort", "control", "recon"]
+    },
+    {
+        "name": "Arsenal",
+        "baseNpc": {"name": "Sniper", "role": "Artillery"},
+        "optionalSystems": ["Selective Loader", "Deadmetal Rounds"],
+        "preferredSitreps": ["gauntlet", "control", "holdout"]
+    },
+    {
+        "name": "Twitch",
+        "baseNpc": {"name": "Sniper", "role": "Artillery"},
+        "optionalSystems": ["Defensive Grapple", "Moving Target"],
+        "preferredSitreps": ["gauntlet", "escort", "extraction"]
+    },
+    {
+        "name": "Predator",
+        "baseNpc": {"name": "Specter", "role": "Striker"},
+        "optionalSystems": ["Step", "Weakness Analyzer"],
+        "preferredSitreps": ["control", "recon"]
+    },
+    {
+        "name": "Wraith",
+        "baseNpc": {"name": "Specter", "role": "Striker"},
+        "optionalSystems": ["Fortress", "Drain Systems"],
+        "preferredSitreps": ["control", "recon"]
+    },
+    {
+        "name": "Wraith",
+        "baseNpc": {"name": "Specter", "role": "Striker"},
+        "optionalSystems": ["Fortress", "Drain Systems"],
+        "preferredSitreps": ["control", "recon"]
+    },
+    {
+        "name": "Doctor",
+        "baseNpc": {"name": "Support", "role": "Support"},
+        "optionalSystems": ["Remote Reboot", "Empowered Cloud"],
+        "preferredSitreps": ["escort", "gauntlet", "recon"]
+    },
+    {
+        "name": "Mechanic",
+        "baseNpc": {"name": "Support", "role": "Support"},
+        "optionalSystems": ["Remote Cloud", "Latch Drone"],
+        "preferredSitreps": ["escort", "gauntlet", "recon", "control"]
+    },
+    {
+        "name": "Immolator",
+        "baseNpc": {"name": "Witch", "role": "Controller"},
+        "optionalSystems": ["Dark Cloud", "Pain Transference"],
+        "preferredSitreps": ["escort", "holdout", "recon"]
+    },
+    {
+        "name": "Ossifier",
+        "baseNpc": {"name": "Witch", "role": "Controller"},
+        "optionalSystems": ["Chain", "Petrify"],
+        "preferredSitreps": ["escort", "extraction", "gauntlet"]
+    }
+]
