@@ -36,3 +36,7 @@ The generator attempts to create a sitrep according to the following requirement
 * Grunts are only ever added in groups of 2 or more. You will never get a sitrep that has only 1 grunt of a given class.
 * For the sake of managing GM cognitive load, the generator uses between 3-5 classes per sitrep, and does not add classes with different templates to the same sitrep.
 * No more than 1 Commander and/or 1 Ultra will be added to a sitrep, as these templates are most often reserved for "boss" or "leader" figures.
+
+## Thanks
+
+Special thanks to [Valkyrion's Mechanized Chassis: Advanced Paradigms](https://valkyrion.itch.io/mechanized-chassis-advanced-paradigms) guide for suggestions on class sitreps and optional traits. It's a great guide, you should get it. Not an ad, just a fan.
